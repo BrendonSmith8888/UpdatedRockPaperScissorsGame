@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(166, 218, 11);
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    align-items: center;
+    color: rgb(15, 15, 63);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    border-radius: 10%;
+    height: 300px;
+    width: 300px;
+}
+
+.paragraphs {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+button {
+    border-radius: 15px;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+}
+
+button:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.rpsIcons{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-top:20px;
+    margin-bottom: 100px;
+}
+
+#rpsImageRock{
+    background-color: white;
+    border-radius: 15px;
+    cursor: url("Images/rock2.png"),pointer;
+    height: 200px;
+    width: 200px;
+}
+
+#rpsImagePaper{
+    background-color: white;
+    border-radius: 15px;
+    cursor: grab;
+    height: 200px;
+    width: 200px;
+}
+
+#rpsImageScissors{
+    background-color: white;
+    border-radius: 15px;
+    cursor: url("Images/scissors.png"),pointer;
+    height: 200px;
+    width: 200px;
+}
+
+.rpsImageRock:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.rpsImagePaper:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.rpsImageScissors:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.imageIcons{
+    border-radius: 15px;
+    height: 150px;
+    width: 150px
+}
+
+.scores{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#GameResults{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
